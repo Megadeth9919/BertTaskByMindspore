@@ -1,0 +1,343 @@
+[2023-09-21 15:59:18] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 15:59:18] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 15:59:18] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 15:59:18] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 15:59:18] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 15:59:18] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 15:59:18] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 15:59:18] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 15:59:18] - INFO: ### max_answer_len = 30
+[2023-09-21 15:59:18] - INFO: ### max_query_len = 64
+[2023-09-21 15:59:18] - INFO: ### max_seq_len = 384
+[2023-09-21 15:59:18] - INFO: ### doc_stride = 128
+[2023-09-21 15:59:18] - INFO: ### batch_size = 12
+[2023-09-21 15:59:18] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 15:59:18] - INFO: ### epochs = 1
+[2023-09-21 15:59:18] - INFO: ### finetuning_task = None
+[2023-09-21 15:59:18] - INFO: ### num_labels = 2
+[2023-09-21 15:59:18] - INFO: ### output_attentions = False
+[2023-09-21 15:59:18] - INFO: ### output_hidden_states = False
+[2023-09-21 15:59:18] - INFO: ### is_decoder = False
+[2023-09-21 15:59:18] - INFO: ### pad_token_id = 0
+[2023-09-21 15:59:18] - INFO: ### eos_token_id = None
+[2023-09-21 15:59:18] - INFO: ### is_encoder_decoder = False
+[2023-09-21 15:59:18] - INFO: ### add_cross_attention = False
+[2023-09-21 15:59:18] - INFO: ### tie_word_embeddings = True
+[2023-09-21 15:59:18] - INFO: ### decoder_start_token_id = None
+[2023-09-21 15:59:18] - INFO: ### return_dict = False
+[2023-09-21 15:59:18] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 15:59:18] - INFO: ### pruned_heads = {}
+[2023-09-21 15:59:18] - INFO: ### problem_type = None
+[2023-09-21 15:59:18] - INFO: ### vocab_size = 30522
+[2023-09-21 15:59:18] - INFO: ### hidden_size = 768
+[2023-09-21 15:59:18] - INFO: ### num_hidden_layers = 12
+[2023-09-21 15:59:18] - INFO: ### num_attention_heads = 12
+[2023-09-21 15:59:18] - INFO: ### hidden_act = gelu
+[2023-09-21 15:59:18] - INFO: ### intermediate_size = 3072
+[2023-09-21 15:59:18] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 15:59:18] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 15:59:18] - INFO: ### max_position_embeddings = 512
+[2023-09-21 15:59:18] - INFO: ### type_vocab_size = 2
+[2023-09-21 15:59:18] - INFO: ### initializer_range = 0.02
+[2023-09-21 15:59:18] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 15:59:18] - INFO: ### classifier_dropout = None
+[2023-09-21 15:59:18] - INFO: ##正在加载数据集##
+[2023-09-21 15:59:19] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 15:59:19] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 15:59:19] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 15:59:19] - INFO: 处理后验证数据集大小：902
+[2023-09-21 15:59:19] - INFO: ##start train##
+[2023-09-21 16:05:19] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:05:19] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:05:19] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:05:19] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:05:19] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:05:19] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:05:19] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:05:19] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:05:19] - INFO: ### max_answer_len = 30
+[2023-09-21 16:05:19] - INFO: ### max_query_len = 64
+[2023-09-21 16:05:19] - INFO: ### max_seq_len = 384
+[2023-09-21 16:05:19] - INFO: ### doc_stride = 128
+[2023-09-21 16:05:19] - INFO: ### batch_size = 12
+[2023-09-21 16:05:19] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:05:19] - INFO: ### epochs = 1
+[2023-09-21 16:05:19] - INFO: ### finetuning_task = None
+[2023-09-21 16:05:19] - INFO: ### num_labels = 2
+[2023-09-21 16:05:19] - INFO: ### output_attentions = False
+[2023-09-21 16:05:19] - INFO: ### output_hidden_states = False
+[2023-09-21 16:05:19] - INFO: ### is_decoder = False
+[2023-09-21 16:05:19] - INFO: ### pad_token_id = 0
+[2023-09-21 16:05:19] - INFO: ### eos_token_id = None
+[2023-09-21 16:05:19] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:05:19] - INFO: ### add_cross_attention = False
+[2023-09-21 16:05:19] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:05:19] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:05:19] - INFO: ### return_dict = False
+[2023-09-21 16:05:19] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:05:19] - INFO: ### pruned_heads = {}
+[2023-09-21 16:05:19] - INFO: ### problem_type = None
+[2023-09-21 16:05:19] - INFO: ### vocab_size = 30522
+[2023-09-21 16:05:19] - INFO: ### hidden_size = 768
+[2023-09-21 16:05:19] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:05:19] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:05:19] - INFO: ### hidden_act = gelu
+[2023-09-21 16:05:19] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:05:19] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:05:19] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:05:19] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:05:19] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:05:19] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:05:19] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:05:19] - INFO: ### classifier_dropout = None
+[2023-09-21 16:05:19] - INFO: ##正在加载数据集##
+[2023-09-21 16:05:20] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:05:20] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:05:20] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:05:20] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:05:20] - INFO: ##start train##
+[2023-09-21 16:38:53] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:38:53] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:38:53] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:38:53] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:38:53] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:38:53] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:38:53] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:38:53] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:38:53] - INFO: ### max_answer_len = 30
+[2023-09-21 16:38:53] - INFO: ### max_query_len = 64
+[2023-09-21 16:38:53] - INFO: ### max_seq_len = 384
+[2023-09-21 16:38:53] - INFO: ### doc_stride = 128
+[2023-09-21 16:38:53] - INFO: ### batch_size = 12
+[2023-09-21 16:38:53] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:38:53] - INFO: ### epochs = 1
+[2023-09-21 16:38:53] - INFO: ### finetuning_task = None
+[2023-09-21 16:38:53] - INFO: ### num_labels = 2
+[2023-09-21 16:38:53] - INFO: ### output_attentions = False
+[2023-09-21 16:38:53] - INFO: ### output_hidden_states = False
+[2023-09-21 16:38:53] - INFO: ### is_decoder = False
+[2023-09-21 16:38:53] - INFO: ### pad_token_id = 0
+[2023-09-21 16:38:53] - INFO: ### eos_token_id = None
+[2023-09-21 16:38:53] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:38:53] - INFO: ### add_cross_attention = False
+[2023-09-21 16:38:53] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:38:53] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:38:53] - INFO: ### return_dict = False
+[2023-09-21 16:38:53] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:38:53] - INFO: ### pruned_heads = {}
+[2023-09-21 16:38:53] - INFO: ### problem_type = None
+[2023-09-21 16:38:53] - INFO: ### vocab_size = 30522
+[2023-09-21 16:38:53] - INFO: ### hidden_size = 768
+[2023-09-21 16:38:53] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:38:53] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:38:53] - INFO: ### hidden_act = gelu
+[2023-09-21 16:38:53] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:38:53] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:38:53] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:38:53] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:38:53] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:38:53] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:38:53] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:38:53] - INFO: ### classifier_dropout = None
+[2023-09-21 16:38:53] - INFO: ##正在加载数据集##
+[2023-09-21 16:38:54] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:38:54] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:38:54] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:38:54] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:38:54] - INFO: ##start train##
+[2023-09-21 16:39:06] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:39:06] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:39:06] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:39:06] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:39:06] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:39:06] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:39:06] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:39:06] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:39:06] - INFO: ### max_answer_len = 30
+[2023-09-21 16:39:06] - INFO: ### max_query_len = 64
+[2023-09-21 16:39:06] - INFO: ### max_seq_len = 384
+[2023-09-21 16:39:06] - INFO: ### doc_stride = 128
+[2023-09-21 16:39:06] - INFO: ### batch_size = 12
+[2023-09-21 16:39:06] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:39:06] - INFO: ### epochs = 1
+[2023-09-21 16:39:06] - INFO: ### finetuning_task = None
+[2023-09-21 16:39:06] - INFO: ### num_labels = 2
+[2023-09-21 16:39:06] - INFO: ### output_attentions = False
+[2023-09-21 16:39:06] - INFO: ### output_hidden_states = False
+[2023-09-21 16:39:06] - INFO: ### is_decoder = False
+[2023-09-21 16:39:06] - INFO: ### pad_token_id = 0
+[2023-09-21 16:39:06] - INFO: ### eos_token_id = None
+[2023-09-21 16:39:06] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:39:06] - INFO: ### add_cross_attention = False
+[2023-09-21 16:39:06] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:39:06] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:39:06] - INFO: ### return_dict = False
+[2023-09-21 16:39:06] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:39:06] - INFO: ### pruned_heads = {}
+[2023-09-21 16:39:06] - INFO: ### problem_type = None
+[2023-09-21 16:39:06] - INFO: ### vocab_size = 30522
+[2023-09-21 16:39:06] - INFO: ### hidden_size = 768
+[2023-09-21 16:39:06] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:39:06] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:39:06] - INFO: ### hidden_act = gelu
+[2023-09-21 16:39:06] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:39:06] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:39:06] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:39:06] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:39:06] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:39:06] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:39:06] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:39:06] - INFO: ### classifier_dropout = None
+[2023-09-21 16:39:06] - INFO: ##正在加载数据集##
+[2023-09-21 16:39:06] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:39:06] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:39:06] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:39:06] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:39:06] - INFO: ##start train##
+[2023-09-21 16:41:53] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:41:53] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:41:53] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:41:53] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:41:53] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:41:53] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:41:53] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:41:53] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:41:53] - INFO: ### max_answer_len = 30
+[2023-09-21 16:41:53] - INFO: ### max_query_len = 64
+[2023-09-21 16:41:53] - INFO: ### max_seq_len = 384
+[2023-09-21 16:41:53] - INFO: ### doc_stride = 128
+[2023-09-21 16:41:53] - INFO: ### batch_size = 12
+[2023-09-21 16:41:53] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:41:53] - INFO: ### epochs = 1
+[2023-09-21 16:41:53] - INFO: ### finetuning_task = None
+[2023-09-21 16:41:53] - INFO: ### num_labels = 2
+[2023-09-21 16:41:53] - INFO: ### output_attentions = False
+[2023-09-21 16:41:53] - INFO: ### output_hidden_states = False
+[2023-09-21 16:41:53] - INFO: ### is_decoder = False
+[2023-09-21 16:41:53] - INFO: ### pad_token_id = 0
+[2023-09-21 16:41:53] - INFO: ### eos_token_id = None
+[2023-09-21 16:41:53] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:41:53] - INFO: ### add_cross_attention = False
+[2023-09-21 16:41:53] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:41:53] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:41:53] - INFO: ### return_dict = False
+[2023-09-21 16:41:53] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:41:53] - INFO: ### pruned_heads = {}
+[2023-09-21 16:41:53] - INFO: ### problem_type = None
+[2023-09-21 16:41:53] - INFO: ### vocab_size = 30522
+[2023-09-21 16:41:53] - INFO: ### hidden_size = 768
+[2023-09-21 16:41:53] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:41:53] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:41:53] - INFO: ### hidden_act = gelu
+[2023-09-21 16:41:53] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:41:53] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:41:53] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:41:53] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:41:53] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:41:53] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:41:53] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:41:53] - INFO: ### classifier_dropout = None
+[2023-09-21 16:41:53] - INFO: ##正在加载数据集##
+[2023-09-21 16:41:54] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:41:54] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:41:54] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:41:54] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:41:54] - INFO: ##start train##
+[2023-09-21 16:50:07] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:50:07] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:50:07] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:50:07] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:50:07] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:50:07] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:50:07] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:50:07] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:50:07] - INFO: ### max_answer_len = 30
+[2023-09-21 16:50:07] - INFO: ### max_query_len = 64
+[2023-09-21 16:50:07] - INFO: ### max_seq_len = 384
+[2023-09-21 16:50:07] - INFO: ### doc_stride = 128
+[2023-09-21 16:50:07] - INFO: ### batch_size = 12
+[2023-09-21 16:50:07] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:50:07] - INFO: ### epochs = 1
+[2023-09-21 16:50:07] - INFO: ### finetuning_task = None
+[2023-09-21 16:50:07] - INFO: ### num_labels = 2
+[2023-09-21 16:50:07] - INFO: ### output_attentions = False
+[2023-09-21 16:50:07] - INFO: ### output_hidden_states = False
+[2023-09-21 16:50:07] - INFO: ### is_decoder = False
+[2023-09-21 16:50:07] - INFO: ### pad_token_id = 0
+[2023-09-21 16:50:07] - INFO: ### eos_token_id = None
+[2023-09-21 16:50:07] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:50:07] - INFO: ### add_cross_attention = False
+[2023-09-21 16:50:07] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:50:07] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:50:07] - INFO: ### return_dict = False
+[2023-09-21 16:50:07] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:50:07] - INFO: ### pruned_heads = {}
+[2023-09-21 16:50:07] - INFO: ### problem_type = None
+[2023-09-21 16:50:07] - INFO: ### vocab_size = 30522
+[2023-09-21 16:50:07] - INFO: ### hidden_size = 768
+[2023-09-21 16:50:07] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:50:07] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:50:07] - INFO: ### hidden_act = gelu
+[2023-09-21 16:50:07] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:50:07] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:50:07] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:50:07] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:50:07] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:50:07] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:50:07] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:50:07] - INFO: ### classifier_dropout = None
+[2023-09-21 16:50:07] - INFO: ##正在加载数据集##
+[2023-09-21 16:50:08] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:50:08] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:50:08] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:50:08] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:50:08] - INFO: ##start train##
+[2023-09-21 16:52:36] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-09-21 16:52:36] - INFO: ### project_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore
+[2023-09-21 16:52:36] - INFO: ### dataset_dir = .mindnlp/datasets/SQuAD1/
+[2023-09-21 16:52:36] - INFO: ### logs_save_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\logs
+[2023-09-21 16:52:36] - INFO: ### pretrained_model_name = bert-base-uncased
+[2023-09-21 16:52:36] - INFO: ### pretrained_model_dir = D:\PyCharm 2023.1.3\PyCharm_Projects\BertForQuestionAnswerByMindspore\.mindnlp\models\bert-base-uncased
+[2023-09-21 16:52:36] - INFO: ### model_checkpoint_path = .mindnlp/models/checkpoint/
+[2023-09-21 16:52:36] - INFO: ### data_cache_path = .mindnlp/datasets/cache/
+[2023-09-21 16:52:36] - INFO: ### max_answer_len = 30
+[2023-09-21 16:52:36] - INFO: ### max_query_len = 64
+[2023-09-21 16:52:36] - INFO: ### max_seq_len = 384
+[2023-09-21 16:52:36] - INFO: ### doc_stride = 128
+[2023-09-21 16:52:36] - INFO: ### batch_size = 12
+[2023-09-21 16:52:36] - INFO: ### learning_rate = 3.5e-05
+[2023-09-21 16:52:36] - INFO: ### epochs = 1
+[2023-09-21 16:52:36] - INFO: ### finetuning_task = None
+[2023-09-21 16:52:36] - INFO: ### num_labels = 2
+[2023-09-21 16:52:36] - INFO: ### output_attentions = False
+[2023-09-21 16:52:36] - INFO: ### output_hidden_states = False
+[2023-09-21 16:52:36] - INFO: ### is_decoder = False
+[2023-09-21 16:52:36] - INFO: ### pad_token_id = 0
+[2023-09-21 16:52:36] - INFO: ### eos_token_id = None
+[2023-09-21 16:52:36] - INFO: ### is_encoder_decoder = False
+[2023-09-21 16:52:36] - INFO: ### add_cross_attention = False
+[2023-09-21 16:52:36] - INFO: ### tie_word_embeddings = True
+[2023-09-21 16:52:36] - INFO: ### decoder_start_token_id = None
+[2023-09-21 16:52:36] - INFO: ### return_dict = False
+[2023-09-21 16:52:36] - INFO: ### chunk_size_feed_forward = 0
+[2023-09-21 16:52:36] - INFO: ### pruned_heads = {}
+[2023-09-21 16:52:36] - INFO: ### problem_type = None
+[2023-09-21 16:52:36] - INFO: ### vocab_size = 30522
+[2023-09-21 16:52:36] - INFO: ### hidden_size = 768
+[2023-09-21 16:52:36] - INFO: ### num_hidden_layers = 12
+[2023-09-21 16:52:36] - INFO: ### num_attention_heads = 12
+[2023-09-21 16:52:36] - INFO: ### hidden_act = gelu
+[2023-09-21 16:52:36] - INFO: ### intermediate_size = 3072
+[2023-09-21 16:52:36] - INFO: ### hidden_dropout_prob = 0.1
+[2023-09-21 16:52:36] - INFO: ### attention_probs_dropout_prob = 0.1
+[2023-09-21 16:52:36] - INFO: ### max_position_embeddings = 512
+[2023-09-21 16:52:36] - INFO: ### type_vocab_size = 2
+[2023-09-21 16:52:36] - INFO: ### initializer_range = 0.02
+[2023-09-21 16:52:36] - INFO: ### layer_norm_eps = 1e-12
+[2023-09-21 16:52:36] - INFO: ### classifier_dropout = None
+[2023-09-21 16:52:36] - INFO: ##正在加载数据集##
+[2023-09-21 16:52:37] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-21 16:52:37] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-21 16:52:37] - INFO: 处理后训练数据集大小：7386
+[2023-09-21 16:52:37] - INFO: 处理后验证数据集大小：902
+[2023-09-21 16:52:37] - INFO: ##start train##

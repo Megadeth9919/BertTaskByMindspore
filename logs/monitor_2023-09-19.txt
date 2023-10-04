@@ -1,0 +1,156 @@
+[2023-09-19 10:07:59] - INFO: ##正在加载数据集##
+[2023-09-19 10:08:00] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 10:08:00] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 11:18:41] - INFO: ##正在加载数据集##
+[2023-09-19 11:18:41] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 11:18:41] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 11:19:11] - INFO: ##正在加载数据集##
+[2023-09-19 11:19:12] - INFO: 缓存文件.mindnlp/datasets/cache/train 不存在，重新处理并缓存！
+[2023-09-19 11:19:12] - INFO: 处理原始训练数据集，数据集大小87599
+[2023-09-19 11:19:54] - INFO: ##正在加载数据集##
+[2023-09-19 11:19:55] - INFO: 缓存文件.mindnlp/datasets/cache/train 不存在，重新处理并缓存！
+[2023-09-19 11:19:55] - INFO: 处理原始训练数据集，数据集大小87599
+[2023-09-19 11:19:55] - INFO: 进入数据预处理
+[2023-09-19 11:19:55] - INFO: 进入数据后处理
+[2023-09-19 14:52:28] - INFO: ##正在加载数据集##
+[2023-09-19 14:52:29] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 14:52:29] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 14:52:29] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 14:52:29] - INFO: 处理后验证数据集大小：902
+[2023-09-19 14:55:47] - INFO: ##正在加载数据集##
+[2023-09-19 14:55:48] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 14:55:48] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 14:55:48] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 14:55:48] - INFO: 处理后验证数据集大小：902
+[2023-09-19 14:57:12] - INFO: ##正在加载数据集##
+[2023-09-19 14:57:12] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 14:57:12] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 14:57:12] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 14:57:12] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:01:04] - INFO: ##正在加载数据集##
+[2023-09-19 15:01:04] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:01:04] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:01:04] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:01:04] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:01:44] - INFO: ##正在加载数据集##
+[2023-09-19 15:01:45] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:01:45] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:01:45] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:01:45] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:04:10] - INFO: ##正在加载数据集##
+[2023-09-19 15:04:11] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:04:11] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:04:11] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:04:11] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:16:28] - INFO: ##正在加载数据集##
+[2023-09-19 15:16:29] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:16:29] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:16:29] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:16:29] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:17:02] - INFO: ##正在加载数据集##
+[2023-09-19 15:17:02] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:17:02] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:17:02] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:17:02] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:17:45] - INFO: ##正在加载数据集##
+[2023-09-19 15:17:45] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:17:45] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:17:45] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:17:45] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:19:54] - INFO: ##正在加载数据集##
+[2023-09-19 15:19:55] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:19:55] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:19:55] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:19:55] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:27:50] - INFO: ##正在加载数据集##
+[2023-09-19 15:27:50] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:27:50] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:27:50] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:27:50] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:30:59] - INFO: ##正在加载数据集##
+[2023-09-19 15:31:00] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:31:00] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:31:00] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:31:00] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:31:10] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/vocab.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002B19EC0E070>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/vocab.txt
+[2023-09-19 15:31:20] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/added_tokens.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002B19EC0E400>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/added_tokens.json
+[2023-09-19 15:31:30] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/special_tokens_map.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002B19EBEEDC0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/special_tokens_map.json
+[2023-09-19 15:31:40] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002B19EC0E5E0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json
+[2023-09-19 15:32:17] - INFO: ##正在加载数据集##
+[2023-09-19 15:32:18] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:32:18] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:32:18] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:32:18] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:32:28] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/vocab.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C7B823E040>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/vocab.txt
+[2023-09-19 15:32:38] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/added_tokens.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C7B823E3D0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/added_tokens.json
+[2023-09-19 15:32:48] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/special_tokens_map.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C7B8222D90>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/special_tokens_map.json
+[2023-09-19 15:32:58] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C7B8222A90>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json
+[2023-09-19 15:38:10] - INFO: ##正在加载数据集##
+[2023-09-19 15:38:11] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:38:11] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:38:11] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:38:11] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:38:59] - INFO: ##正在加载数据集##
+[2023-09-19 15:39:00] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:39:00] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:39:00] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:39:00] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:40:39] - INFO: ##正在加载数据集##
+[2023-09-19 15:40:40] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:40:40] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:40:40] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:40:40] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:42:35] - INFO: ##正在加载数据集##
+[2023-09-19 15:42:36] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:42:36] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:42:36] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:42:36] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:43:22] - INFO: ##正在加载数据集##
+[2023-09-19 15:43:22] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:43:22] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:43:22] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:43:22] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:43:33] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/vocab.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002265C30FCA0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/vocab.txt
+[2023-09-19 15:43:43] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/added_tokens.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002265A0E9100>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/added_tokens.json
+[2023-09-19 15:43:53] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/special_tokens_map.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002265A0E94F0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/special_tokens_map.json
+[2023-09-19 15:44:03] - WARNING: 'HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002265A0E98B0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json
+[2023-09-19 15:52:13] - INFO: ##正在加载数据集##
+[2023-09-19 15:52:13] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:52:13] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:52:13] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:52:13] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:53:49] - INFO: ##正在加载数据集##
+[2023-09-19 15:53:50] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:53:50] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:53:50] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:53:50] - INFO: 处理后验证数据集大小：902
+[2023-09-19 15:58:01] - INFO: ##正在加载数据集##
+[2023-09-19 15:58:02] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 15:58:02] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 15:58:02] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 15:58:02] - INFO: 处理后验证数据集大小：902
+[2023-09-19 16:00:47] - INFO: ##正在加载数据集##
+[2023-09-19 16:00:47] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 16:00:47] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 16:00:47] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 16:00:47] - INFO: 处理后验证数据集大小：902
+[2023-09-19 16:02:24] - INFO: ##正在加载数据集##
+[2023-09-19 16:02:25] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 16:02:25] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 16:02:25] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 16:02:25] - INFO: 处理后验证数据集大小：902
+[2023-09-19 16:04:06] - INFO: ##正在加载数据集##
+[2023-09-19 16:04:07] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 16:04:07] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 16:04:07] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 16:04:07] - INFO: 处理后验证数据集大小：902
+[2023-09-19 16:06:49] - INFO: ##正在加载数据集##
+[2023-09-19 16:06:50] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 16:06:50] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 16:06:50] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 16:06:50] - INFO: 处理后验证数据集大小：902
+[2023-09-19 16:07:11] - INFO: ##正在加载数据集##
+[2023-09-19 16:07:11] - INFO: 缓存文件 .mindnlp/datasets/cache/train 存在，直接载入缓存文件！
+[2023-09-19 16:07:11] - INFO: 缓存文件 .mindnlp/datasets/cache/dev 存在，直接载入缓存文件！
+[2023-09-19 16:07:11] - INFO: 处理后训练数据集大小：7386
+[2023-09-19 16:07:11] - INFO: 处理后验证数据集大小：902
