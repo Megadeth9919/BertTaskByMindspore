@@ -18,7 +18,7 @@ from tqdm import tqdm
 def train(train_dataset, test_dataset, config):
     logging.info('##start train##')
     model = BertForQuestionAnswering.from_pretrained('bert-base-uncased')
-
+    model = auto_mixed_precision(model, 'O1')
     def get_linear_lr(lr, total_step):
         lrs = []
         for current_step in range(total_step):
